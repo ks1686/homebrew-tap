@@ -14,22 +14,22 @@ cask "genv" do
   on_macos do
     on_intel do
       url "https://github.com/ks1686/genv/releases/download/v#{version}/genv_#{version}_darwin_amd64.tar.gz"
-      sha256 "d559734000698df0689b2ccc35ce8b390d175b8630205eaeceec9f90836b7571"
+      sha256 "7a6afc592d3c11fad9f33930a20ebc7c1dac9a3312c29dd8fc53013fa2d54892"
     end
     on_arm do
       url "https://github.com/ks1686/genv/releases/download/v#{version}/genv_#{version}_darwin_arm64.tar.gz"
-      sha256 "82940a3cced91c2386f4edc84b4802d1802e6b8aef3ca08ec753106772234673"
+      sha256 "fa9cfd207c169404afaefc1e7e3213a48c559b81f645db86acbfdb15f34ac63c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ks1686/genv/releases/download/v#{version}/genv_#{version}_linux_amd64.tar.gz"
-      sha256 "deb6ede62272f0c35a1ea19c2d16ce286131bc643734934d03dddf495a68f336"
+      sha256 "e64ec1f46091fab6b00b3d82f897661c76bd57b8c52d77a1fd3ea9f1670cc0d8"
     end
     on_arm do
       url "https://github.com/ks1686/genv/releases/download/v#{version}/genv_#{version}_linux_arm64.tar.gz"
-      sha256 "39116975be8a178676653a4134202e2d6d984e178c9e989fbf85b159e9885614"
+      sha256 "1f65fea89a5da0f2dd3f022ff0f89abfad4d640209c185e3d53080588dc7f120"
     end
   end
 
