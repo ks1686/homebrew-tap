@@ -3,7 +3,7 @@ cask "genv" do
   name "genv"
   desc "Track, sync, and reproduce your software environment across Linux, macOS, and WSL2."
   homepage "https://github.com/ks1686/genv"
-  version "2.0.1"
+  version "2.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "genv" do
   on_macos do
     on_intel do
       url "https://github.com/ks1686/genv/releases/download/v#{version}/genv_#{version}_darwin_amd64.tar.gz"
-      sha256 "5c90e1bbce3be4c6ba2a34e978d8435ae1a44e428fdc6fc5689c679d88e50392"
+      sha256 "3c812afdf2b2d6a0d725b583e6b85ad1c36b795d83c0cfab64b5db0a31c7cc60"
     end
     on_arm do
       url "https://github.com/ks1686/genv/releases/download/v#{version}/genv_#{version}_darwin_arm64.tar.gz"
-      sha256 "73841c659e6c44e91a8cd7f0db660507f745c26567ae279b57b776c7565093dc"
+      sha256 "1f7a760a97b9d3470319d3f62051668e68f4a7081755cc77c73f44ecd2cd45a9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ks1686/genv/releases/download/v#{version}/genv_#{version}_linux_amd64.tar.gz"
-      sha256 "23eba219410f3d4408dff922f5af54d22c740eb749b228a134c6404a22b0f867"
+      sha256 "3524c510da95eb865b766fbf9ba53658915b429e42d6ddf1844609f54b09ee86"
     end
     on_arm do
       url "https://github.com/ks1686/genv/releases/download/v#{version}/genv_#{version}_linux_arm64.tar.gz"
-      sha256 "d4b0d016d84d5a0d7bc52c5c27d49109ccd00682f0b7f7d15b556bba305d4510"
+      sha256 "1809c25cad419ddea5e1d10cac86b3fa4f57f05410df1d69e41fe142fd98e101"
     end
   end
 
