@@ -1,6 +1,6 @@
 cask "umbilical" do
-  version "1.0.1"
-  sha256 "7f5bbd6d76e2b925d5af7f460adb30df6354153ca7f2512af8245a05e5d671f6"
+  version "1.0.2"
+  sha256 "4b3aa05d12a93ceb27624ad01670f7cebea660cfb4b2bd954f661c576eefa52d"
 
   url "https://github.com/ks1686/umbilical/releases/download/v#{version}/umbilical-#{version}.dmg"
   name "umbilical"
@@ -8,7 +8,7 @@ cask "umbilical" do
   homepage "https://github.com/ks1686/umbilical"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "umbilical.app"
 
