@@ -1,6 +1,6 @@
 cask "umbilical" do
-  version "1.0.0"
-  sha256 "78b70f3dbdc8c0cd08e72a5216aec3c38bd922cd94bbb49e021d590b60a5b1e0"
+  version "1.0.1"
+  sha256 "7f5bbd6d76e2b925d5af7f460adb30df6354153ca7f2512af8245a05e5d671f6"
 
   url "https://github.com/ks1686/umbilical/releases/download/v#{version}/umbilical-#{version}.dmg"
   name "umbilical"
